@@ -5,6 +5,9 @@
 // 12821 -> да
 // 23432 -> да
 
+
+// могу, конечно и этот участок кода завернуть в метод, но мне кажется, это будет перебор. 
+// вся работа в методе IsPallindrom()
 Console.WriteLine("Введите целое число");
 bool isInt = int.TryParse(Console.ReadLine(), out int num);
 if (!(isInt)) {
